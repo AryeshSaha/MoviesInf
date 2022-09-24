@@ -18,7 +18,7 @@ function App() {
     const response = await fetch(apiURL);
     const promise = await response.json();
 
-    // console.log(promise);
+    console.log(promise);
     setMovies(promise.results);
   };
 
