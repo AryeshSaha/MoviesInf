@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Dangrek&display=swap");
+body {
+  background-color: black;
+}
+
+a {
+  font-family: "Dangrek", cursive;
+}
+
+.bg-danger {
+  /* border: 2px solid whitesmoke; */
+  background-color: #e50914 !important;
+}
+
+.container-fluid {
+  padding: 0 1.5rem;
+}
+
+.navbar-brand {
+  /* border: 2px solid greenyellow; */
+  font-size: 2rem;
+  cursor: pointer;
+  border: 5px double black;
+  border-radius: 10px;
+}
+
+.App {
+  /* border: 2px solid silver; */
+  padding: 0rem 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.me-2 {
+  background-color: black;
+  border: none;
+  outline: none;
+}
+
+.me-2::placeholder {
+  color: whitesmoke;
+}
+
+footer {
+  font-family: "Dangrek", cursive;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 499px) {
+  .navbar {
+    height: 90px;
+    padding-top: 0;
+    margin-bottom: 70px;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin-bottom: 20px;
+  }
+
+  .d-flex {
+    margin-top: 10px;
+    position: relative;
+    left: 0;
+    width: 90%;
+    padding-bottom: 0.8rem;
+  }
+
+  .me-2{
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  .me-2::placeholder{
+    color: black;
+  }
+
+  .btn-outline-dark{
+    border-color: whitesmoke !important;
+    color: whitesmoke !important;
+  }
+}
