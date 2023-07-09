@@ -46,6 +46,9 @@ function App() {
     window.location.reload(false);
   };
 
+  // Date
+  const year = new Date().getFullYear();
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-danger">
@@ -78,7 +81,7 @@ function App() {
       </div>
       <BTT />
       <footer class="text-center text-light">
-        Copyright &copy; Aryesh | 2022
+        Copyright &copy; Aryesh | {year}
       </footer>
     </>
   );
